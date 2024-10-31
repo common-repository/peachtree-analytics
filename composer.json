@@ -1,0 +1,20 @@
+{
+    "name": "peachtree/wordpress-plugin",
+    "description": "The \"Peachtree Analytics\" WordPress plugin",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Judah Wright",
+            "email": "hello@judahwright.me"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peachtree\\": "includes/"
+        }
+    }
+}
